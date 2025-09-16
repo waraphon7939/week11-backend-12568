@@ -12,5 +12,8 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['@nuxtjs/google-fonts'],
+  devServer:{
+    port:8001
+  },
+    modules: ['@nuxtjs/google-fonts'],
 })
